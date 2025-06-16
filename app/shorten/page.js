@@ -40,6 +40,7 @@ const Shorten = () => {
     return (
         <div className='mx-auto max-w-lg bg-purple-100 my-16 p-8 rounded-lg flex flex-col gap-4'>
             <h1 className='font-bold text-2xl'>Generate your short URLs</h1>
+            
             <div className='flex flex-col gap-2'>
                 <input type="text"
                     value={url}
